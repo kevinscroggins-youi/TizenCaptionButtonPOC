@@ -1,0 +1,153 @@
+QtCreatorDeployment.txt
+.deps
+.libs
+.dirstamp
+autom4te.cache
+*.a
+*.o
+*.d
+*.dia
+*.lo
+*.la
+*.gcda
+*.gcno
+*.obj
+*.sbr
+*.idb
+*.pdb
+*.bsc
+*.ncb
+*.suo
+*.user
+*.orig
+*.ilk
+*.ninja
+*.ninja_deps
+*.ninja_log
+.project
+.cproject
+.DS_Store
+*.manifest
+*.manifest.res
+*.dep
+*.VC.db
+*.ipa
+*.zip
+*.xcarchive
+*.xcodeproj
+*xcuserdata/
+*xcworkspacedata
+Version.h
+cmake_install.cmake
+exportOptions.plist
+Makefile
+DerivedData
+
+# CMake dirs and files
+CMakeCache.txt
+CMakeFiles/
+Debug.cmake
+Release.cmake
+cmake_install.cmake
+install_manifest.txt
+*.dir/
+
+AE/Adobe After Effects Auto-Save/
+
+# inline youiengine
+youiengine/
+
+# AndroidNative ignores
+build/android/assets/.gitignore
+build/android/assets/assets
+build/android/AndroidManifest.xml
+build/android/project
+build/android/src
+build/ios/assets
+build/osx/assets
+build/tvos/assets
+build/ps4/assets
+build/ps4/*.pkg
+build/ps4/*.xml
+build/ps4/*.zip
+build/ios/bundles
+build/tvos/bundles
+build/osx/bundles
+
+build/uwp
+build/ios
+build/tvos
+build/osx
+build/ps4
+build/tizen-nacl
+
+docs
+
+# CMAKE_BUILD_TYPE dirs created on Linux and Windows
+Debug/
+Release/
+ORBIS_Debug/
+ORBIS_Release/
+PS3_Debug/
+PS3_Release/
+prebuilt
+
+# CMake generated Visual Studio solution and project files
+# don't put this at top level (You.i Engine) dir since thirdparty ones are under revision control
+*.sln
+*.vcproj
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.sdf
+*.opensdf
+*.opendb
+*.pri
+AppPackages/
+Debug/Assets/
+Release/Assets/
+
+#Cmake iOS generated files
+*.xcodeproj
+CMakeScripts/
+*.build/
+Debug-*/
+Release-*/
+
+# Temporary Tizen signing profile
+profiles.xml
+
+# Node.js Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node.js dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# NPM and Yarn lock files
+package-lock.json
+yarn.lock
+
+# Node.js remote console API configuration files
+config.*.json
+!config.development.json
+
+# Remote console log files
+remote_console/public/logs
+
+# Unit test build output
+build/*/test
+crashlytics-build.properties
+build/android/.idea
+build/android/gen
