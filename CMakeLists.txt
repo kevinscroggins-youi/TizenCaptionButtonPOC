@@ -210,6 +210,12 @@ yi_configure_asset_copying(PROJECT_TARGET ${PROJECT_NAME}
 # Because not every platform requires custom packaging functionality, which is creating a
 # application bundle suitable for the target platform. Having a cmake 'Package' target
 # is optional only if the platform's CMake file implements the yi_configure_packaging_for_platform function. 
+include(Modules/${YI_PLATFORM_LOWER}/ConfigureWebAssets OPTIONAL)
+
+if(COMMAND configure_web_assets)
+    configure_web_assets()
+endif()
+
 include(Modules/${YI_PLATFORM_LOWER}/YiConfigurePackagingForPlatform OPTIONAL)
 if (COMMAND yi_configure_packaging_for_platform)
     include(Modules/YiGenerateUniqueTargetName)

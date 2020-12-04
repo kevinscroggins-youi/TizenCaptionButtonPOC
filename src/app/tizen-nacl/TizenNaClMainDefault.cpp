@@ -333,6 +333,9 @@ void PPKeyToYiKey(const pp::KeyboardInputEvent &ppKeyEvent, CYIKeyEvent &rKeyEve
         case 10009: // Return
             rKeyEvent.m_keyCode = CYIKeyEvent::KeyCode::SystemBack;
             break;
+        case 10221: // Caption
+            rKeyEvent.m_keyCode = CYIKeyEvent::KeyCode::Captions;
+            break;
         case 10252: // MediaPlayPause
             rKeyEvent.m_keyCode = CYIKeyEvent::KeyCode::MediaPlayPause;
             break;
